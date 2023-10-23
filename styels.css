@@ -1,0 +1,25 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Set the layout for the left static part */
+.static {
+    width: 33%; /* Adjust this width as needed */
+    float: left;
+    background-color: #f2f2f2; /* Set the background color for the static part */
+    height: 100%; /* Makes it full height */
+}
+
+/* Style the scrollable right part */
+.scrollable {
+    width: 67%; /* Adjust this width as needed */
+    float: left;
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    height: 100%; /* Makes it full height */
+}
+
+/* Add styles for your content as needed */
