@@ -17,7 +17,7 @@ body, html {
 /* Style the scrollable right part */
 .scrollable {
     width: 67%; /* Adjust this width as needed */
-    float: left;
+    float: right;
     overflow-y: auto; /* Enable vertical scrolling when content overflows */
     height: 100%; /* Makes it full height */
 }
